@@ -1,11 +1,19 @@
 .jumbotron {
   background-color: dodgerblue;
+
 }
 
 body {
   background-color: crimson;
 
 }
+.container {
+
+  display: flex; /* or inline-flex */
+
+}
+
+
 
 h1 {
   font-family: fantasy;
@@ -14,6 +22,12 @@ h1 {
 }
 h2{
   font-family: cursive;
+  text-align: center;
+
+}
+
+h3{
+  font-family: font-fantasy;
   text-align: center;
 
 }
@@ -69,4 +83,25 @@ button {
   color: black;
   transform: rotateY(180deg);
   overflow: scroll;
+}
+
+
+.float1 {
+  float: left;
+}
+
+.float2 {
+  float:right;
+}
+
+.float3 {
+  float: left;
+}
+
+.float4 {
+float: right;
+}
+
+p {
+  text-align: center;
 }
